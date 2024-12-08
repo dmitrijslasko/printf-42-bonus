@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmlasko <dmlasko@student.42.fr>            +#+  +:+       +#+        */
+/*   By: dmlasko <dmlasko@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 13:22:10 by dmlasko           #+#    #+#             */
-/*   Updated: 2024/07/25 19:48:40 by dmlasko          ###   ########.fr       */
+/*   Updated: 2024/12/08 01:25:14 by dmlasko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,8 +59,6 @@ void	ft_puthex(unsigned int nbr, char *base, size_t *counter);
 void	print_upper(char *s);
 
 size_t	ft_parse_f(const char *s, t_flags *f);
-
-//void	ft_apply_f(t_flags *f, char *base, size_t *counter);
 
 void	ft_init_flags(t_flags *f);
 
